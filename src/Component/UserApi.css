@@ -1,0 +1,31 @@
+.UserApi{
+    color: white;
+    background-color: lightpink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.UserApi h1{
+    font-size: 3rem;
+    width: 200px;
+    margin: 3rem 2rem 0 2rem;
+    text-align: center;
+}
+.Content{
+    border-radius:2rem 1rem 0;
+    background-image: linear-gradient(234deg, rgba(255, 0, 0, 0.651),rgb(81, 81, 206));
+    width: 200px;
+    margin: 2rem;
+}
+.Content img{
+    border-radius: 2rem 1rem 0 0 ;
+    max-width: 100%;
+    height: auto;
+}
+
+.Content :nth-child(2){
+    padding:1rem 0 0.3rem 2rem;
+}
+.Content :nth-child(3){
+    padding:0 0 1rem 2rem;
+}
